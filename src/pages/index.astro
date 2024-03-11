@@ -1,10 +1,11 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-import Button from "../components/Button.astro";
+import { Image } from "astro:assets";
+import Data from "../assets/images/datavisualisering.svg";
 ---
 
 <MainLayout title="Titel">
   <article>
-    <p></p>
+    <Image src={Data} alt="Datavisualisering" class="ml-16 mt-10" />
   </article>
 </MainLayout>
